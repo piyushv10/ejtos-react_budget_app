@@ -1,0 +1,30 @@
+.button-circle {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-green {
+    background-color: white;
+    color: #22d022;
+    color: #4dea4d;
+}
+
+.button-red 
+{
+    background-color: white;
+    color: rgb(179, 0, 0);
+}
+
+.button-circle:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
